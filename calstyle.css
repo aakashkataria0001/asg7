@@ -1,0 +1,97 @@
+html, body{
+  margin: 1%;
+  height: 100%;
+}
+#cal{
+  height: 600px;
+  width: 700px;
+}
+.calcpage{
+  padding: 1%;
+  margin: 40%;
+  height: 100%;
+  width: 80%;
+  background-color: skyblue;
+}
+#textarea{
+  box-sizing: border-box;
+  float: right;
+  margin: 5%;
+  height: 15%;
+  width: 60%;
+  background-color: #33adff;
+  border-radius: 10%;
+  box-shadow: 0px -7px 10px #0066ff;
+}
+#clear0{
+  display: inline-block;
+  height: 75%;
+  width: 30%;
+  margin-top: 3%;
+  margin-left: -47%;
+  box-sizing: border-box;
+  background-color: #ff4d4d;
+  border-radius: 10%;
+  box-shadow: 0px 7px 7px #ff1a1a;
+}
+#clear0:hover{
+  background-color: red;
+}
+#val{
+  text-align: right;
+  padding-right: 3%;
+  margin-top: -15%;
+  font-family:cursive;
+  font-size: 150%;
+}
+.buttons{
+  display: inline-block;
+  height: 18%;
+  width: 18%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 2%;
+  border-radius: 10%;
+  box-shadow: 0px 7px 5px #527a7a;
+  padding: 5%;
+}
+#divforbuttons{
+  display: block;
+  margin: 5%;
+  margin-top: 30%;
+  width: 100%;
+  height: 60%;
+}
+#mul0, #sub0, #add0, #divide0{
+  background-color: #ffccff;
+}
+#mul0:hover, #sub0:hover, #add0:hover, #divide0:hover{
+  background-color: #0040ff;
+}
+#equal0{
+  background-color: #ffffb3;
+  box-shadow: 0px 7px 5px #ff9900;
+}
+#equal0:hover{
+  background-color: yellow;
+}
+.intval{
+  margin-top: -50%;
+  margin-left: 30%;
+  font-family:cursive;
+  font-size: 150%;
+  font-weight: bolder;
+}
+#clearval{
+  margin-top: 11%;
+  margin-left: 40%;
+  font-weight: bold;
+  font-family:cursive;
+  font-size: 150%;
+}
+.buttons:hover{
+  background-color: #0040ff;
+}
+.intval:hover{
+  color: white;
+}
